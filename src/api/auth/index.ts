@@ -11,6 +11,5 @@ export const reqAuthUser = (id: string) => {
   return request({
     method: 'Get',
     url: API.auth_user + '/' + id,
-
   })
 }

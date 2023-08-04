@@ -9,7 +9,7 @@ import { ElNotification } from 'element-plus'
 nprogress.configure({ showSpinner: false })
 const userStore = useUserStore(pinia)
 router.beforeEach(async (to, from, next) => {
-  document.title =  to.meta.title as string
+  document.title = to.meta.title as string
   nprogress.start()
 
   const token = userStore.token

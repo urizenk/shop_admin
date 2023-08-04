@@ -62,10 +62,10 @@ export const routes: RouteRecordRaw[] = [
   },
   {
     path: '/bookmark',
-    name: 'Bookmark', 
+    name: 'Bookmark',
     component: () => import('@/views/bookmark/index.vue'),
     meta: {
-      title: '书签管理',  
+      title: '书签管理',
       keepAlive: true,
       icon: 'Memo',
       hidden: false,
@@ -76,10 +76,10 @@ export const routes: RouteRecordRaw[] = [
   },
   {
     path: '/spider',
-    name: 'Spider', 
+    name: 'Spider',
     component: () => import('@/views/bookmark/index.vue'),
     meta: {
-      title: '爬虫管理',  
+      title: '爬虫管理',
       keepAlive: true,
       icon: 'Box',
       hidden: false,
@@ -90,10 +90,10 @@ export const routes: RouteRecordRaw[] = [
   },
   {
     path: '/jobs',
-    name: 'Jobs', 
+    name: 'Jobs',
     component: () => import('@/views/bookmark/index.vue'),
     meta: {
-      title: '任务管理',  
+      title: '任务管理',
       keepAlive: true,
       icon: 'Timer',
       hidden: false,

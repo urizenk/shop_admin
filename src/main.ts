@@ -12,7 +12,6 @@ import router from '@/router/index'
 import './permisstion'
 import * as THREE from 'three'
 
-
 const app = createApp(App)
 app.config.globalProperties.$THREE = THREE
 app.use(globalComponent)

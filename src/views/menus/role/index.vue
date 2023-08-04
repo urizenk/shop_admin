@@ -12,6 +12,5 @@ import { ref, reactive, toRefs, onMounted } from 'vue'
 import useUserStore from '@/store/modules/user'
 
 let userStore = useUserStore()
-
 </script>
 <style scoped lang="scss"></style>

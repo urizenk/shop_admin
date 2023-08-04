@@ -65,8 +65,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref, reactive, toRefs, onMounted} from 'vue'
-import {reqSysLog} from '@/api/sys/index'
+import { ref, reactive, toRefs, onMounted } from 'vue'
+import { reqSysLog } from '@/api/sys/index'
 let sysLogs = ref([])
 let total = ref(1)
 onMounted(async () => {
@@ -75,5 +75,4 @@ onMounted(async () => {
   total.value = res.data.total
 })
 </script>
-<style scoped lang="scss">
-</style>
+<style scoped lang="scss"></style>
